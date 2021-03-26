@@ -18,8 +18,8 @@ on:
     branches: 
       - main
 
-  schedule:
-    - cron: 0 3 * * 5
+#  schedule:
+#    - cron: 0 3 * * 5
     
   repository_dispatch:
   workflow_dispatch:
@@ -42,7 +42,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout
