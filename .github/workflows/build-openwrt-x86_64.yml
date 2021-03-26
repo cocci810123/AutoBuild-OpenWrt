@@ -36,8 +36,8 @@ env:
   FEEDS_CONF: feeds.conf.default
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
-  UPLOAD_COWTRANSFER: false
-  UPLOAD_WETRANSFER: false
+#  UPLOAD_COWTRANSFER: false
+#  UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
 
@@ -77,7 +77,7 @@ jobs:
 #        sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #        Add a feed source
 #        sed -i '$a src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' ./feeds.conf.default
-
+#
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
 
@@ -160,6 +160,7 @@ jobs:
 #        ./transfer wet -s -p 16 --no-progress ${FIRMWARE} 2>&1 | tee wetransfer.log
 #        echo "::warning file=wetransfer.com::$(cat wetransfer.log | grep https)"
 #        echo "::set-output name=url::$(cat wetransfer.log | grep https | cut -f3 -d" ")"
+#    
     - name: Generate release tag
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
