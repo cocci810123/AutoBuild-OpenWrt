@@ -19,7 +19,7 @@ on:
       - main
 
   schedule:
-    - cron: 0 3 * * *
+    - cron: 0 3 * * 5
     
   repository_dispatch:
   workflow_dispatch:
