@@ -1,6 +1,6 @@
 # Docker管理面板Portainer中文汉化说明
 
-## 由于Lean大神的固件中，使用的是Portainer英文版Docker管理面板, 所以需要编译安装后, 自己汉化成中文版，具体汉化方法如下:
+由于Lean大神的固件中，使用的是Portainer英文版Docker管理面板, 所以需要编译安装后, 自己汉化成中文版，具体汉化方法如下:
 
 1. 点击Portainer-CN.zip进入文件界面, 点击Download按钮下载, 并解压至public目录
 
