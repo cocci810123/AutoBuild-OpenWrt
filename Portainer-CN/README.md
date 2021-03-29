@@ -1,6 +1,8 @@
 # Docker管理面板Portainer中文汉化说明
 
 
+
+
 1. 点击Portainer-CN.zip进入文件界面, 点击Download按钮下载, 并解压至public目录
 
 2. 将解压后的public目录上传至Linux系统根目录
