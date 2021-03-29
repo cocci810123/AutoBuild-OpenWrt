@@ -18,8 +18,9 @@
     docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data -v /public:/public portainer/portainer:linux-arm64-1.20.2
     ```
     
-4. 您只需要使用浏览器访问运行Portainer的Docker引擎的端口9000即可, 官方安装文档详见 [Portainer官方网站](https://www.portainer.io/installation/)
+4. 您只需要使用浏览器访问运行Portainer的Docker引擎的端口9000即可
 
 5. 如果遇到错误或者汉化不成功, 请停止或者删除Portainer容器, 重新覆盖public中的文件, 再执行一次RUN命令
 
-6. 此文档说明及汉化文件的版权归Mark's Blog所有, 具体请参看 [原文链接](https://www.quchao.net/Portainer-CN.html)
+6. Portainer官方安装文档详见 [Portainer官方网站](https://www.portainer.io/installation/)
+   此文档说明及汉化文件的版权归Mark's Blog所有, 具体请参看 [原文链接](https://www.quchao.net/Portainer-CN.html)
