@@ -1,4 +1,4 @@
-1. 把 public.zip 解压至系统根目录 
+1. 点击 public.zip, 进入界面并点击Download按钮下载保存, 把public.zip解压并上传至系统根目录 
 
 2. 然后按需执行以下命令:
 
