@@ -1,4 +1,4 @@
-1. 点击public.zip进入文件界面并点击Download按钮下载并解压
+1. 点击public.zip进入文件界面, 点击Download按钮下载并解压
 
 2. 将解压后的public目录上传至Linux系统根目录
 
