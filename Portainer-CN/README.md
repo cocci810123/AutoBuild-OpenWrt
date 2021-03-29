@@ -23,6 +23,5 @@
 5. 如果遇到错误或者汉化不成功, 请停止或者删除Portainer容器, 重新覆盖public中的文件, 再执行一次RUN命令
 
 ---
-*Portainer官方安装文档请详见 [Portainer官方网站](https://www.portainer.io/installation/)*
-<br/>
-*此文档说明及汉化文件的版权归Mark's Blog所有, 具体请详见 [原文链接](https://www.quchao.net/Portainer-CN.html)*
++ *Portainer官方安装文档请详见 [Portainer官方网站](https://www.portainer.io/installation/)*
++ *此文档说明及汉化文件的版权归Mark's Blog所有, 具体请详见 [原文链接](https://www.quchao.net/Portainer-CN.html)*
