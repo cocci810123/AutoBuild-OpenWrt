@@ -1,6 +1,6 @@
-1. 点击 public.zip 进入文件界面并点击Download按钮下载保存
+1. 点击public.zip进入文件界面并点击Download按钮下载并解压
 
-2. 把 public.zip 解压并上传至Linux系统根目录
+2. 将解压后的public目录上传至Linux系统根目录
 
 3. 然后按需执行以下命令:
 
