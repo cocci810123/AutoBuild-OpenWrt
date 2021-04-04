@@ -10,7 +10,7 @@ name: 'Delete old artifacts'
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 18 * * *
+  #  - cron: 0 18 * * *
 
 jobs:  
   delete-artifacts:
