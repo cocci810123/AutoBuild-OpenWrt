@@ -44,13 +44,6 @@ jobs:
       run: |
         echo ${{ steps.getHash.outputs.commitHash }} | tee .commitHash
 
-# Copyright (c) 2019-2021 <https://github.com/marketplace/actions/purge-artifacts>
-    - name: Trigger build
-      if: steps.cacheHash.outputs.cache-hit != 'true'
-      uses: peter-evans/repository-dispatch@v1
-      with:
-        token: ${{ secrets.ACTIONS_TRIGGER_PAT }}
-        event-type: Source Code Update
         
     - name: Delete workflow runs
       uses: GitRML/delete-workflow-runs@main
