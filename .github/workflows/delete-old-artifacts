@@ -1,5 +1,10 @@
+# Copyright (c) 2019-2021 kolpav <https://github.com/kolpav/purge-artifacts-action>
+#
 # expire-in
+# Required for how long the artifacts should be kept.
 # formats 10 minutes, 1hr 20mins, 7days, 1week
+# Setting this to 0 will delete all artifacts
+#
 
 name: 'Delete old artifacts'
 on:
