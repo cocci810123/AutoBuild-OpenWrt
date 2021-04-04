@@ -1,6 +1,6 @@
 #
 # Copyright (c) 2019-2021 P3TERX <https://p3terx.com>
-#
+# 
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 #
@@ -43,7 +43,8 @@ jobs:
       if: steps.cacheHash.outputs.cache-hit != 'true'
       run: |
         echo ${{ steps.getHash.outputs.commitHash }} | tee .commitHash
-        
+
+# Copyright (c) 2019-2021 <https://github.com/marketplace/actions/purge-artifacts>
     - name: Trigger build
       if: steps.cacheHash.outputs.cache-hit != 'true'
       uses: peter-evans/repository-dispatch@v1
