@@ -19,4 +19,4 @@ jobs:
       - uses: actions/checkout@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          expire-in: 0 # Setting this to 0 will delete all artifacts
+          expire-in: 1days # Setting this to 0 will delete all artifacts
