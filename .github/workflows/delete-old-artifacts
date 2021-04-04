@@ -13,8 +13,9 @@ jobs:
     
     steps:
       
-      - name: Delete old artifacts
-        uses: kolpav/purge-artifacts-action@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          expire-in: 1days # Setting this to 0 will delete all artifacts
+    - name: Delete old artifacts
+      uses: kolpav/purge-artifacts-action@v1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        expire-in: 0days # Setting this to 0 will delete all artifacts
+
