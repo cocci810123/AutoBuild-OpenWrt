@@ -57,6 +57,7 @@ jobs:
         retain_days: 1
         keep_minimum_runs: 1
     
+# Copyright (c) 2019-2021 kolpav <https://github.com/kolpav/purge-artifacts-action>
     - name: Delete old artifacts
       uses: kolpav/purge-artifacts-action@v1
       with:
