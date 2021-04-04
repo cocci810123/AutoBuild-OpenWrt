@@ -57,8 +57,3 @@ jobs:
         retain_days: 1
         keep_minimum_runs: 1
     
-    - name: Delete old artifacts
-      uses: kolpav/purge-artifacts-action@v1
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        expire-in: 1days # Setting this to 0 will delete all artifacts
