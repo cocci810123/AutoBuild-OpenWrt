@@ -33,8 +33,7 @@ env:
   REPO_URL: https://github.com/Lienol/openwrt
   REPO_BRANCH: master
   CONFIG_FILE: x86_64.config
-  FEEDS_CONF: feeds.conf.default
-  Lienol_FEEDS_CONF: lienol.feeds.conf.default
+  FEEDS_CONF: lienol.feeds.conf.default
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
 #  UPLOAD_COWTRANSFER: false
@@ -75,7 +74,7 @@ jobs:
         
     - name: Load custom feeds
       run: |
-        [ -e $Lienol_FEEDS_CONF ] && mv $Lienol_FEEDS_CONF openwrt/feeds.conf.default
+        [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
         cd openwrt
         # Uncomment a feed source
         # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
