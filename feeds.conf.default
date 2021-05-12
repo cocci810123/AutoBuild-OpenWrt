@@ -10,4 +10,3 @@ src-git telephony https://git.openwrt.org/feed/telephony.git
 src-git helloworld https://github.com/fw876/helloworld
 src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
 #src-git dockerman https://github.com/lisaac/luci-app-dockerman.git
-src-git serverchan https://github.com/tty228/luci-app-serverchan.git
